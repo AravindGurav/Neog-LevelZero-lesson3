@@ -36,7 +36,21 @@ body{
     margin:auto;
 }
 
+/** link **/
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+}
+
 .primary-link{
-    color:var(--primary-color)
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+}
+
+.secondory-link{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
 }
 
