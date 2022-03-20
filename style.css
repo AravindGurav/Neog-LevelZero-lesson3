@@ -54,3 +54,10 @@ body{
     color:white;
 }
 
+.hr{
+    margin:2rem 0rem;
+}
+
+.non-bullet{
+    list-style:none;
+}
