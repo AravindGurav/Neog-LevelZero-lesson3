@@ -18,3 +18,25 @@ body{
     font-family:'Montserrat',
     sans-serif;
 }
+
+:root{
+    --primary-color:#84cc16;
+}
+
+/** container **/
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/** container fluid **/
+.container-center{
+    max-width:600px;
+    margin:auto;
+}
+
+.primary-link{
+    color:var(--primary-color)
+}
+
