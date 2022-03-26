@@ -42,18 +42,25 @@
     <hr>
 
     <h2>@lists</h2>
+    <h2> unordered list</h2>
+    <ul class="list-non-bullet" >
+        <li> Item one</li>
+        <li> Item two</li>
+        <li> Item three</li>
+    
+    </ul>
     <h3>Unordered Inline List</h3>
 
-    <ul class="non-bullet">
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <hr>
 
     <h2>Reversed Orderd List</h2>
-    <ol>
+    <ol reversed>
         <li>banana</li>
         <li>milk</li>
         <li>sugar</li>
@@ -63,23 +70,24 @@
 
     <h2>@Nav</h2>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation">
+        <div class="navigation-brand">brand Aravind</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Products</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
 
     <hr>
 
-    <h2>header</h2>
+    <h2>@header</h2>
     <header>
         <img src="images/hero1.svg">
         <h1>Heading inside Hero</h1>
