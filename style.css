@@ -20,7 +20,8 @@ body{
 }
 
 :root{
-    --primary-color:#84cc16;
+    --primary-color:#3b82f6;
+    --secondory-color:#6b7280;
 }
 
 /** container **/
@@ -73,8 +74,8 @@ body{
 /** Navigation **/
 .navigation{
     background-color:var(--primary-color);
-    border-radius: 0.5rem;
-    text-align: justify;
+   border-bottom-left-radius: 0.5rem;
+    text-align: right;
     padding: 1rem;
 }
 
@@ -82,6 +83,7 @@ body{
     font-style: montserrat;
     font-size: large;
     color: white;
+    text-align:left;
 
 }
 
@@ -90,6 +92,30 @@ body{
 }
 
 .navigation .link-active{
-    font-size: large;
+    font-size: 20px;
+}
+
+/** header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero  .hero-img{
+    display:block;
+    max-width:350px;
+    margin:auto;
+
+}
+
+.hero .hero-heading{
+    text-align:center;
+    color: var(--secondory-color);
+    padding-top: 1rem;
+
+}
+
+.hero .heading-role{
+    color:var(--primary-color);
 }
 
